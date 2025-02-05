@@ -1,0 +1,165 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #007BFF;
+    padding: 1em 0;
+    text-align: center;
+    
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #0056b3;
+}
+
+/* Main content */
+main {
+    padding: 30px;
+}
+
+/* Forms */
+form {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    padding: 20px 40px 20px 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    width: 100=0%;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+form button {
+    background-color: hsl(209, 100%, 50%);
+    color: white;
+    border: none;
+    width: 321px;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 10px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Result page */
+.result {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Upload Container */
+
+/* Interactive Results Styling */
+.result-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.analysis-card {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    border-left: 4px solid #007BFF;
+    transition: transform 0.2s;
+}
+
+.analysis-card:hover {
+    transform: translateY(-3px);
+}
+
+.disease-card.warning {
+    border-color: #ffc107;
+    background: #fff3cd;
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.recommendation-list {
+    list-style-type: '→ ';
+    padding-left: 1.5rem;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.retry-btn {
+    background: #007BFF;
+    color: white;
+}
+
+.share-btn {
+    background: #28a745;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.uploaded-image {
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

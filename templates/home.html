@@ -1,18 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Home{% endblock %}
+{% block title %}Crop Detection{% endblock %}
 {% block content %}
-
-<h1>Welcome, {{ user }}</h1>
-<form action="/predict" method="post">
-    <label>Nitrogen (N):</label><input type="number" name="n" required>
-    <label>Phosphorus (P):</label><input type="number" name="p" required>
-    <label>Potassium (K):</label><input type="number" name="k" required>
-    <label>Temperature:</label><input type="number" name="temperature" step="0.1" required>
-    <label>Humidity:</label><input type="number" name="humidity" step="0.1" required>
-    <label>pH:</label><input type="number" name="ph" step="0.1" required>
-    <label>Rainfall:</label><input type="number" name="rainfall" step="0.1" required>
-    <button type="submit">Predict Crop</button>
-</form>
 
 {% endblock %}
